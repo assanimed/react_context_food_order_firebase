@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px -4px rgb(135, 125, 125);
+}
+
+.item * {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.item h4 {
+    font-size: 1.1rem;
+}
+
+.item .desc {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.item .price {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(240, 129, 10);
+}

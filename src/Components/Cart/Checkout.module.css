@@ -1,0 +1,56 @@
+.form {
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+}
+
+.input {
+    border: none;
+    padding: 10px 10px;
+    outline: 2px solid rgb(221, 199, 199);
+    display: block;
+    width: 100%;
+    margin: 3px 0;
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
+.input:focus {
+    outline-color: purple;
+}
+
+.submitButton {
+    width: 100%;
+    background-color: rgb(16, 95, 185);
+    color: #fff;
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.submitButton:focus {
+    outline: 5px solid rgb(51, 189, 243);
+}
+
+.submitButton:disabled {
+    cursor: not-allowed;
+    background-color: rgb(190, 185, 185);
+}
+
+.errorSpan {
+    display: block;
+    margin: 5px 0;
+    color: rgb(238, 58, 58);
+    font-weight: bold;
+}

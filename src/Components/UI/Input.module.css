@@ -1,0 +1,20 @@
+.input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.input input {
+    font-size: 1.2rem;
+    max-width: 50px;
+    border: none;
+    border: 2px solid #b5c1cd;
+    border-radius: 3px;
+    padding-left: 5px;
+}
